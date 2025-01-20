@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Красивый текст</title>
+    <title>Not a cool text!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,10 +27,9 @@
     </style>
 </head>
 <body>
-    <div id="text-container">Это красивый текст на красном фоне!</div>
+    <div id="text-container">THIS IS NOT A COOL TEXT ON JAVASCRIPT!</div>
 
     <script>
-        // Показываем текст через секунду
         setTimeout(() => {
             const textContainer = document.getElementById('text-container');
             textContainer.style.display = 'block';
